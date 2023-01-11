@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 1rem;
+}
+
+/* Container1 */
+#container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    padding: 40px 10px;
+    /* border: 4px solid red; */
+    min-height: calc(15rem - 20px);
+}
+
+#c1-field1 {
+    display: flex;
+    flex-direction: column;
+    color: #141115;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+#c1-field1 span {
+    display: block;
+    height: 2px;
+    width: calc(5rem - 2px);
+    background: #12b109;
+    margin: 7px 0px 7px 4px;
+}
+#c1-field2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+/* EO. Container1 */
+
+/* Container2 */
+#container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#c2-field1 {
+    max-width: fit-content;
+}
+
+#c2-field1 img {
+    max-width: 90vw;
+    box-shadow: 4px 4px 4px 4px solid black;
+}
+
+#c2-field2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+#c2-field2 h2 {
+    color: #141115;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+#c2-field2 span {
+    display: block;
+    height: 2px;
+    width: calc(5rem - 20px);
+    background: #141115;
+    margin: 7px 0px 7px 4px;
+}
+
+#c2-field2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+/* EO. Container2 */
+
+/* Container3 */
+#container3 {
+    display: flex;
+    flex-direction: column;
+    min-width: 90vw;
+    min-height: calc(50rem - 20px);
+}
+
+#c3-field1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px 30px;
+}
+
+#c3-f1-sub1 h1{
+    font-size: 37px;
+    color: #0090ac;
+    font-family: 'Poppins', sans-serif;
+}
+#c3-f1-sub1 h1 span{
+    color: #12b109;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+#c3-f1-sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: calc(19rem - 20px);
+    font-size: 22px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0px 0px 10px -4px rgb(44, 202, 152);
+    background: #DEF5E5;
+}
+
+#contact span {
+    display: block;
+    height: 2px;
+    width: calc(5rem - 2px);
+    background: green;
+    margin: 7px 0px 1rem 4px;
+}
+
+#contact-layer1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+#contact-layer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+#contact-layer3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#contact-layer3 a {
+    font-size: 25px;
+    color: #000;
+    font-weight: 900;
+}
+
+#c3-field2 {
+    padding: 10px;
+    font-size: 23px;
+}
+
+iframe {
+    min-height: 17rem;
+    width: 100%;
+}
+
+/* EO. Container3 */
+
+@media screen and (min-width: 1024px) {
+
+    /* Container1 */
+    #container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        padding: 40px calc(3rem - 38px);
+        /* background: rgb(238, 229, 233);
+        background: linear-gradient(309deg, rgba(238, 229, 233, 1) 0%, rgba(176, 253, 211, 1) 42%); */
+    }
+
+    #c1-field1 {
+        display: flex;
+        flex-direction: column;
+        min-width: calc(30rem - 10px);
+    }
+
+    #c1-field2 {
+        display: flex;
+        flex-direction: column;
+        max-width: calc(40rem - 10px);
+    }
+
+    #c1-field1 span {
+        display: block;
+        height: 2px;
+        width: calc(5rem - 2px);
+        background: green;
+    }
+
+    /* EO. Container1 */
+
+    /* Container2 */
+    #container2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    #c2-field1 {
+        max-width: fit-content;
+    }
+
+    #c2-field1 img {
+        max-width: calc(30rem - 10px);
+    }
+
+    #c2-field2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        max-width: calc(40rem - 10px);
+    }
+
+    #c2-field2 span {
+        display: block;
+        height: 2px;
+        width: calc(5rem - 20px);
+        background: green;
+        margin-bottom: 2.5rem;
+    }
+
+    /* Container3 */
+    #container3 {
+        display: flex;
+        flex-direction: column;
+        min-width: 90vw;
+
+    }
+
+    #c3-field1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5rem;
+        padding: 20px 30px;
+    }
+    #c3-f1-sub1 h1{
+        font-size: 50px;
+    }
+    #c3-f1-sub1 h1 span{
+        font-size: 50px;
+    }
+    #c3-f1-sub2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        min-height: calc(19rem - 20px);
+        font-size: 22px;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    #contact span {
+        display: block;
+        height: 2px;
+        width: calc(5rem - 2px);
+    }
+
+    #contact-layer1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    #contact-layer2 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    #contact-layer3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    #contact-layer3 a {
+        font-size: 25px;
+        color: #000;
+        font-weight: 900;
+    }
+
+    #c3-field2 {
+        padding: 10px;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        gap: 20rem;
+    }
+    #c3-field2 span{
+        display: block;
+        height: 2px;
+        width: calc(5rem - -10px);
+        background: green;
+        margin: -18px 0px 30px 4px;
+    }
+
+    #c3-field2 h2 {
+        margin-bottom: 30px;
+    }
+
+    iframe {
+        min-height: 40rem;
+        width: 100%;
+    }
+
+    /* EO. Container3 */
+}
